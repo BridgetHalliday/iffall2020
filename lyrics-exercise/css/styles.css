@@ -1,0 +1,50 @@
+body {
+    background-color: orange;
+    border-top-style: dotted; border-top-color: lavender; border-top-width: 100px;
+    border-bottom-style: dotted; border-bottom-color: rgb(255, 217, 0); border-bottom-width: 50px;
+}
+
+.lyrics {
+    color: rgb(255, 217, 0);
+    line-height: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-indent: 5%;
+}
+
+.lyrics2 {
+    color: rgb(255, 217, 0);
+    line-height: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-indent: 20%;
+}
+
+.lyrics3 {
+    color: lavender;
+    line-height: 8px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-indent: 40%;
+}
+
+.lyrics4 {
+    color: rgb(255, 217, 0);
+    line-height: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-indent: 20%;
+}
+
+.lyrics5 {
+    color: rgb(255, 217, 0);
+    line-height: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-indent: 35%;
+}
