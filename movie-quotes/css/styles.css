@@ -1,0 +1,37 @@
+body {
+    background-color: darkslategray;
+}
+
+.Peter {
+    color: teal;
+    font-size: 16px;
+}
+
+.Dana {
+    color: mediumpurple;
+    font-size: 16px;
+}
+
+.Mayor {
+    color: lightgoldenrodyellow;
+    font-size: 16px;
+}
+
+.Ray {
+    color: pink;
+    font-size: 16px;
+}
+
+.Egon {
+    color: palegreen;
+    font-size: 16px
+}
+
+.Winston {
+    color: lightskyblue;
+    font-size: 16px
+}
+.actions {
+    color: grey;
+    font-size: 12px;
+}
