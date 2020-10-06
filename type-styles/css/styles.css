@@ -1,0 +1,142 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+  }
+
+  h1 {
+      font-size: 62pt;
+      text-align: center;
+      margin-bottom: 0%;
+  }
+
+  .h1 {
+      font-size: 16pt;
+      text-align: center;
+  }
+
+  h2 {
+      color: red;
+      line-height: 5;
+      font-weight: normal;
+      font-size: 20pt;
+      text-indent: 10%;
+  }
+
+  section {
+    text-indent: 10%;
+  }
+
+  h3 {
+      font-size: 16pt;
+      line-height: 0;
+      color: red;
+      font-weight: normal;
+  }
+
+  .thin {
+    font-weight: 100;
+  }
+
+  .normal {
+      font-weight: 400;
+  }
+
+  .bold {
+      font-weight: 700;
+  }
+
+  .black {
+      font-weight: 900;
+  }
+
+  .italics {
+      font-style: italic;
+  }
+
+  h4 {
+    line-height: 5;
+    color: orange;
+    font-weight: normal;
+    font-size: 20pt;
+}
+ 
+  h5 {
+    line-height: 0;
+    font-size: 16pt;
+    color: orange;
+    font-weight: normal;
+}
+
+h6 {
+    line-height: 5;
+    color: limegreen;
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+.h7 {
+    line-height: 0;
+    font-size: 16pt;
+    color: limegreen;
+    font-weight: normal;
+}
+
+.big {
+    letter-spacing: .1em;
+}
+
+.tiny {
+    letter-spacing: -.05em;
+}
+
+.h8 {
+    line-height: 5;
+    color:mediumturquoise;
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+.h9 {
+    line-height: 0;
+    font-size: 16pt;
+    color: mediumturquoise;
+    font-weight: normal; 
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.h10 {
+    line-height: 5;
+    color: plum;
+    font-weight: normal;
+    font-size: 20pt; 
+}
+
+.h11 {
+    line-height: 0;
+    font-size: 16pt;
+    color:plum;
+    font-weight: normal;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
