@@ -1,0 +1,116 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url(https://interactive.wttw.com/sites/default/files/styles/full/public/images/2018/10/11/20181003_012516_828256gettyimages-484270482.jpg.1280x720_q85.jpg?itok=wu_LfKxC);
+    background-size: 150%;
+    text-align: center;
+    padding-top: 98px;
+    padding-bottom: 52px;
+    height: 330px;
+}
+
+h1 {
+    font-size: 60pt;
+    margin-bottom: -3.5px;
+}
+
+h2 {
+    font-size: 1.865em;
+    margin-top: 0px
+}
+
+.column-container {
+    width: 960px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30pt;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.one {
+    background-color:coral;
+    padding-top: 40px;
+    padding-bottom: 33px
+}
+
+.two {
+    background-color: palegoldenrod;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.three {
+    background-color:coral;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+
+section {
+    font-size: 1.12em;
+}
+
+.sunset {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin-top: 19px;
+    margin-left: 38px;
+    margin-bottom: 17px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+    margin: auto;
+    padding-top: 17px
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    width: 90%;
+    padding-bottom: 4px
+}
+
+.grid img {
+    width: 200px;
+    height: 150px;
+    float: left; 
+    padding-right: 12px;
+    padding-bottom: 20px
+    }
+
+.pt {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 4px
+}
+
+.sectionthree {
+    text-align: center;
+    font-size: 19pt;
+    font-weight: 500;
+    margin-left: 120px;
+    margin-right: 120px;
+    line-height: 36px;
+    margin-top: 19px;
+}
+
+.copyright {
+    margin-left: 170px;
+    margin-top: 40px;
+    background-color: white
+}
