@@ -1,0 +1,83 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 320px;
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    background-color: rgb(255, 235, 213);
+    color: rgb(156, 32, 1);
+    line-height: 18pt;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50pt;
+    color: rgb(156, 32, 1); 
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20pt
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+@media (min-width: 640px) {
+    .recipe {display: flex; flex-wrap: wrap}
+}
+
+@media (min-width: 640px) {
+    #ingredients {width: 35%}
+}
+
+@media (min-width: 640px) {
+    #directions {width: 65%}
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.directions {
+    line-height: 26pt;
+}
+
+.taste {
+    text-align: right;
+    padding-right: 25%;
+    font-style: italic;
+}
+
+.zesty {
+    font-size: 18pt
+}
+
+@media (max-width: 765px) {
+    h1 {font-size: 30pt; line-height: 28pt}
+}
+
+@media (max-width: 765px) {
+    .zesty {font-size: 12pt;}
+}
+
+.recipe {
+    background-color: rgb(252, 244, 232);
+    padding-left: 10px;
+}
