@@ -1,0 +1,487 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_lyft:hover .lyftlogo {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 15px;
+    object-position: center;
+    background-color: rgb(235, 10, 141);
+    transition: .1s
+}
+
+a#btn_lyft .lyftlogo {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 150px;
+    height: 150px;
+    object-position: center;
+}
+
+a#btn_insta {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 35px;
+    background-color:fuchsia;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    transition: all .2s;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+a#btn_insta:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_insta:active {
+    background-color:rgb(155, 42, 155);
+}
+
+a#btn_sardella {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    background-color: #fff;
+    color:turquoise;
+    font-family: 'Big Shoulders Inline Display';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 8px;
+    transition: all .2s;
+}
+
+a#btn_sardella:hover {
+    color:rgb(0, 56, 209);
+    font-size: 50px;
+    letter-spacing: 16px;
+    text-align: center;
+}
+
+a#btn_coke {
+    text-align: center;
+}
+
+.cokeicon {
+    width: 35%;
+    padding-top: 60px;
+}
+
+a#btn_coke:hover .cokeicon {
+    transform: rotate(120deg) translate(30%, -30%);
+}
+
+a#btn_moo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    background-color: rgb(137, 190, 137);
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    color: rgb(58, 126, 58);
+    letter-spacing: -2px;
+    font-size: 50px;
+}
+
+a#btn_moo:hover {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    background-color: rgb(58, 126, 58);
+    color: white;
+    transition: 1s
+}
+
+a#btn_biss {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rufina', serif;
+    font-size: 25px;
+}
+
+.bissimage {
+    width: 175px;
+    padding-left: 10px;
+}
+
+a#btn_biss:hover {
+    color: tan;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.bissimage:hover {
+    width: 125px;
+    padding-left: 17px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+a#btn_botanical {
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    line-height: 10px;
+    text-decoration: none;
+    color: rgb(19, 73, 19);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-variant: small-caps
+}
+
+a#btn_botanical:hover .bot {
+    letter-spacing: 10px;
+    text-align: center;
+    transition: .5s;
+    color: rgb(111, 134, 111)
+}
+
+a#btn_fitbit .fitbiticon {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+a#btn_fitbit:hover .fitbiticon {
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+    transition: .75s;
+}
+
+a#btn_tucker {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+a#btn_tucker:hover {
+    text-decoration: underline;
+}
+
+a#btn_ibm {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    align-content: center;
+    margin-right: 50px;
+}
+
+a#btn_ibm .ibmicon {
+    width: 120%;
+    align-content: center;
+    padding-bottom: 0;
+}
+
+a#btn_ibm .bee {
+    width: 0%;
+    padding-left: 25px;
+}
+
+a#btn_ibm:hover .bee {
+    width: 100%;
+    padding-left: 25px;
+}
+
+a#btn_ibm:hover .ibmicon {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 15px
+}
+
+a#btn_kitten {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Big Shoulders Inline Display';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a#btn_kitten:hover {
+    color: rgb(230, 207, 0);
+}
+a#btn_kitten:hover .exp {
+    color: rgb(223, 59, 0);
+}
+
+a#btn_nike {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    background-color: #fff;
+    color: rgb(196, 196, 196);
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.n:hover {
+    color: black;
+    transition: .25s
+}
+
+.i:hover {
+    color: black;
+    transition: .25s
+}
+
+.k:hover {
+    color: black;
+    transition: .25s
+}
+
+.e:hover {
+    color: black;
+    transition: .25s
+}
+
+a#btn_color {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 30px;
+    background-color: #fff;
+    color: rgb(87, 90, 231);
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 5px;
+    text-align: left
+}
+
+.c:hover {
+    color: fuchsia;
+}
+
+.c:active {
+    color:rgb(156, 252, 92);
+}
+
+
+a#btn_navy {
+    display: inline-block;
+    height: 50px;
+    width: 170px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 12px 32px 0 30px;
+    background-color: white;
+    color: red;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: futura-pt-bold, sans-serif;
+    text-decoration: none;
+}
+
+a#btn_navy:hover {
+    display: inline-block;
+    height: 50px;
+    width: 170px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 12px 32px 0 30px;
+    background-color:red;
+    color: white;
+    transition: .25s;
+}
+
+a#btn_npr {
+    display: block;
+    width: 175px;
+    height: 95px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 0px;
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nn:hover {
+    color: red;
+    font-weight: 600;
+}
+
+.pp:hover {
+    font-weight: 600;
+}
+
+.rr:hover {
+    color: rgb(58, 118, 247);
+    font-weight: 600;
+}
+
+a#btn_army {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 7px;
+    color:white;
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.armyicon {
+    width: 75%
+}
+
+a#btn_army:hover .usarmy {
+    color: black;
+    font-size: 40px;
+    transition: 1.25s
+}
+
+a#btn_facebook {
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: rgb(24, 86, 255);
+    color: white;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_facebook:hover {
+    box-shadow: 7px 7px 5px 0px rgba(7, 0, 0, 0.5);
+    transition: .75s;
+}
+
+a#btn_apple {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: normal;
+    text-shadow: 2px 0px 10px rgba(150, 150, 150, 1);
+    color: white;
+}
+
+a#btn_apple:hover {
+    color: rgb(235, 235, 235);
+    font-size: 90px;
+    margin-top: 75px;
+    transition: .5s;
+}
+
+a#btn_jude {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    line-height: 4px;
+    color: grey;
+}
+
+a#btn_jude:hover {
+    color: rgb(185, 0, 0);
+}
+
+a#btn_electra {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 32px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: 'Lobster';
+    text-decoration: none;
+}
+
+a#btn_electra:hover {
+    border-radius: 25px;
+    transition: .25s;
+    font-size: 26px;
+    padding-top: 8px;
+}
+
